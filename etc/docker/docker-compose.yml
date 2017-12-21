@@ -1,0 +1,16 @@
+version: '2'
+services:
+  mongodb:
+    image: mongo:3.2
+    environment:
+     - AUTH=yes
+    container_name: dc-mongo-1
+    restart: always
+    ports:
+     - "27017:27017"
+    volumes:
+     - ../../data:/data/db
+networks:
+    default:
+        external:
+            name: dc-net

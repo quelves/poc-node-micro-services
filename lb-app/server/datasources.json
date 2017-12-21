@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mongoDS": {
+    "host": "172.17.0.1",
+    "port": 27017,
+    "url": "",
+    "database": "dm",
+    "password": "Dev.2017",
+    "name": "mongoDS",
+    "user": "admin",
+    "connector": "mongodb"
+  }
+}
