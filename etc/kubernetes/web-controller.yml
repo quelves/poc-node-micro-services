@@ -13,7 +13,7 @@ spec:
         name: web
     spec:
       containers:
-      - image: gcr.io/wp-quelves/poc-mean
+      - image: gcr.io/wp-quelves/rtk-node
         name: web
         ports:
         - containerPort: 3000
